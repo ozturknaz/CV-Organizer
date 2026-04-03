@@ -7,6 +7,11 @@ This script is responsible for:
 3. Performing basic text cleaning (normalizing spaces, removing extra newlines).
 4. Preparing the raw text for the next phase of analysis.
 
+# --- Input & Output Info ---
+# Input: Any .pdf or .docx file path provided via terminal argument
+# Output: A cleaned .txt file stored in the 'data/' directory
+# ---------------------------
+
 """
 import fitz  # To work with PDF files
 import docx  # To work with Word documents

@@ -12,8 +12,6 @@ Input:
 Output: 
 - A refined prompt for LLM or a structured JSON response (when API is connected).
 
-Author: Name Surname
-Date: yyyy-mm-dd
 """
 
 import json

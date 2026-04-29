@@ -14,8 +14,6 @@ Input:
 Output: 
 - A structured prompt intended for an LLM to generate a match score and explanation.
 
-Author: Name Surname
-Date: yyyy-mm-dd
 """
 
 import json

@@ -69,6 +69,20 @@ def create_matching_context(cv_text, job_description):
     """
     return prompt
 
+def match_cv_to_job(cv_text):
+    """
+    PURPOSE: Simulated AI matcher for Phase 5 integration.
+    In Phase 3/4, this will be replaced by a real API call.
+    """
+    # This is a placeholder that simulates what an LLM would return
+    # It allows main.py to run without errors until we connect the API
+    simulated_result = {
+        "strengths": ["Python", "SQL", "Problem Solving"],
+        "score": 85,
+        "reason": "Simulated analysis: Candidate shows strong technical alignment."
+    }
+    return simulated_result
+
 if __name__ == "__main__":
     print("--- ClawdBot Matcher: Preparing In-Context Analysis ---")
     

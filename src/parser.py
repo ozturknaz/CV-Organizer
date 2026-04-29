@@ -89,5 +89,5 @@ if os.path.exists(file_to_process):
             print(f"Success: Text extracted and saved at: {saved_path}")
         else:
             print("Notice: No text could be extracted or file is invalid.")
-    else:
+else:
         print(f"Error: File not found at {file_to_process}")
